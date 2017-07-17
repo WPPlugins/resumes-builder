@@ -1,0 +1,216 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+.post-grid-container-main {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+/**************/
+.post-grid-container .social-icon {
+  color: rgb(255, 0, 0);
+  padding: 10px;
+  text-align: left;
+  transition: all 0.3s ease 0s;
+}
+
+
+
+
+
+
+.post-grid-container .social-icon span {
+  background-size: 100% auto !important;
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+}
+
+.post-grid-container .social-icon span a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+
+.post-grid-container .social-icon .fb {
+  background: url("icons/facebook.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.post-grid-container .social-icon .twitter {
+  background: url("icons/twitter.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.post-grid-container .social-icon .gplus {
+  background: url("icons/gplus.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+
+
+.post-grid-container .meta {
+  padding: 10px 0;
+  text-align: left;
+}
+
+.post-grid-container .meta span {
+  display: inline-block;
+  font-size: 11px;
+  height: 20px;
+  margin-right: 15px;
+  padding-left: 20px;
+}
+
+.post-grid-container .meta span a {
+  text-decoration: none;
+}
+
+
+
+.post-grid-container .meta .date {
+  background: url("icons/time.png") no-repeat scroll 0 0px rgba(0, 0, 0, 0);
+
+}
+
+.post-grid-container .meta .author {
+  background: url("icons/author.png") no-repeat scroll 0 0px rgba(0, 0, 0, 0);
+
+}
+.post-grid-container .meta .cayegory {
+  background: url("icons/cayegory.png") no-repeat scroll 0 0px rgba(0, 0, 0, 0);
+
+}
+.post-grid-container .meta .tags {
+  background: url("icons/tags.png") no-repeat scroll 0 0px rgba(0, 0, 0, 0);
+
+}
+.post-grid-container .meta .comments {
+  background: url("icons/comments.png") no-repeat scroll 0 0px rgba(0, 0, 0, 0);
+
+}
+
+
+
+
+
+
+
+
+/*   ###################paginate###########################   */
+
+
+.post-grid-container-main .paginate {
+
+}
+
+.post-grid-container-main .paginate .page-numbers {
+  background: none repeat scroll 0 0 rgb(31, 191, 69);
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  margin: 3px 0;
+  padding: 3px 8px;
+  text-decoration: none;
+}
+
+.post-grid-container-main .paginate .page-numbers:hover {
+  background: none repeat scroll 0 0 rgb(14, 140, 44);
+}
+
+.post-grid-container-main .paginate span{
+
+}
+.post-grid-container-main .paginate a{
+
+}
+.post-grid-container-main .paginate .current {
+  background: none repeat scroll 0 0 rgb(14, 140, 44);
+}
+
+
+
+
+.post-grid-container .load-more {
+  margin-top: 50px;
+  text-align: center;
+}
+.post-grid-container .load-more .load {
+  background: none repeat scroll 0 0 rgb(31, 191, 69);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  padding: 7px 10px;
+}
+
+
+
+/*hover-items*/
+
+
+.post-grid-container .hover-items {
+  display: none;
+  transition: all 0.7s ease 0s;
+  width: 100%;
+}
+
+.post-grid-container .grid-single:hover .hover-items {
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 2147483647;
+  display:block;
+}
+
+
+
+.post-grid-container .hover-items a {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgb(255, 255, 255);
+  background-image: none;
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: 100% auto !important;
+  border-radius: 50%;
+  box-shadow: 0 0 7px -2px rgb(102, 102, 102);
+  cursor: pointer;
+  display: inline-block;
+  height: 50px;
+  margin-top: 30px;
+  vertical-align: top;
+  width: 50px;
+}
+
+
+.post-grid-container .hover-items .zoom {
+  background: url("icons/zoom.png") repeat scroll 0 0 rgba(255, 255, 255, 0.7);
+}
+.post-grid-container .hover-items .post-link {
+  background: url("icons/link.png") repeat scroll 0 0 rgba(255, 255, 255, 0.7);
+}
+
+
+
+.post-grid-container .grid-single:hover .social-icon {
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  width: 100%;
+  z-index: 2147483647;
+}
+
+
+
+
+
+
+
+
+
+
+
+

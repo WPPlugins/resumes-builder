@@ -1,0 +1,325 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.resumes-container.blue {
+  background: none repeat scroll 0 0 rgb(228, 228, 228);
+  text-align: center;
+}
+
+
+.resumes-container.blue .col-left {
+  background: none repeat scroll 0 0 rgb(61, 203, 239);
+  display: inline-block;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  position: relative;
+  vertical-align: top;
+  width: 30%;
+}
+
+.resumes-container.blue .resumes-thumbnail {
+  background: none repeat scroll 0 0 rgb(255, 255, 255);
+  height: 250px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.resumes-container.blue .resumes-thumbnail img {
+  height: auto;
+  width: 100%;
+}
+
+.resumes-container.blue .title-container {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(100, 100, 95, 0.5)) repeat scroll 0 0 rgba(0, 0, 0, 0);
+  padding: 10px 0;
+  position: absolute;
+  top: 167px;
+  width: 100%;
+}
+
+.resumes-container.blue .resumes-title {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.resumes-container.blue .resumes-subtitle {
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+}
+
+
+.resumes-container.blue .resumes-details {
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  padding: 30px 10px 10px  65px;
+  position: relative;
+  text-align: left;
+  position: relative;
+}
+.resumes-container.blue .resumes-details::before {
+  content: "\f0eb";
+  font-family: fontawesome;
+  font-size: 25px;
+  left: 25px;
+  position: absolute;
+}
+
+
+.resumes-container.blue .col-left .resumes-contact {
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  padding: 30px 10px 10px  65px;
+  position: relative;
+  text-align: left;
+}
+
+.resumes-container.blue .col-left .resumes-contact .entry-email{
+ position: relative;
+}
+.resumes-container.blue .col-left .resumes-contact .entry-email::before{
+  content: "\f1d9";
+  font-family: fontawesome;
+  left: -25px;
+  position: absolute;
+}
+
+.resumes-container.blue .col-left .resumes-contact .entry-url{
+ position: relative;
+}
+.resumes-container.blue .col-left .resumes-contact .entry-url::before{
+  content: "\f0c1";
+  font-family: fontawesome;
+  left: -25px;
+  position: absolute;
+}
+.resumes-container.blue .col-left .resumes-contact .entry-location{
+ position: relative;
+}
+.resumes-container.blue .col-left .resumes-contact .entry-location::before{
+  content: "\f041";
+  font-family: fontawesome;
+  left: -25px;
+  position: absolute;
+}
+.resumes-container.blue .col-left .resumes-contact .entry-phone{
+ position: relative;
+}
+
+.resumes-container.blue .col-left .resumes-contact .entry-phone::before{
+  content: "\f095";
+  font-family: fontawesome;
+  left: -25px;
+  position: absolute;
+}
+
+
+
+
+.resumes-container.blue .col-left .resumes-social .entry-facebook {
+  position: relative;
+}
+
+.resumes-container.blue .col-left .resumes-social .entry-facebook::before {
+  content: "\f09a";
+  font-family: fontawesome;
+  left: -25px;
+  position: absolute;
+}
+
+
+.resumes-container.blue .col-left .resumes-social .entry-twitter{
+  position: relative;
+}
+.resumes-container.blue .col-left .resumes-social .entry-twitter::before {
+  content: "\f099";
+  font-family: fontawesome;
+  left: -25px;
+  position: absolute;
+}
+.resumes-container.blue .col-left .resumes-social .entry-linkedin{
+  position: relative;
+}
+.resumes-container.blue .col-left .resumes-social .entry-linkedin::before {
+  content: "\f0e1";
+  font-family: fontawesome;
+  left: -25px;
+  position: absolute;
+}
+
+
+.resumes-container.blue .col-left .resumes-social .entry a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+
+
+
+.resumes-container.blue .col-left .resumes-social {
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  padding: 30px 10px 10px  65px;
+  position: relative;
+  text-align: left;
+}
+
+
+
+
+
+.resumes-container.blue .col-right {
+  display: inline-block;
+  width: 70%;
+}
+
+
+.resumes-container.blue .col-right .section {
+  background: none repeat scroll 0 0 rgb(250, 252, 251);
+  box-shadow: 0 0 7px -3px rgb(153, 153, 153);
+  display: block;
+  margin: 35px auto;
+  width: 90%;
+}
+.resumes-container.blue .col-right .section-inner {
+  padding: 20px 30px 20px 70px;
+}
+
+.resumes-container.blue .section.education .section-title::before {
+  content: "\f19d";
+  font-family: fontawesome;
+  left: -45px;
+  position: absolute;
+}
+
+
+.resumes-container.blue .section.experiences .section-title::before {
+  content: "\f018";
+  font-family: fontawesome;
+  left: -45px;
+  position: absolute;
+}
+.resumes-container.blue .section.award .section-title::before {
+  content: "\f02e";
+  font-family: fontawesome;
+  left: -45px;
+  position: absolute;
+}
+
+.resumes-container.blue .section.skill .section-title::before {
+  content: "\f0e7";
+  font-family: fontawesome;
+  left: -45px;
+  position: absolute;
+}
+
+.resumes-container.blue .section.interest .section-title::before {
+  content: "\f000";
+  font-family: fontawesome;
+  left: -45px;
+  position: absolute;
+}
+
+.resumes-container.blue .section.social .section-title::before {
+  content: "\f1e0";
+  font-family: fontawesome;
+  left: -45px;
+  position: absolute;
+}
+
+.resumes-container.blue .section.language .section-title::before {
+  content: "\f041";
+  font-family: fontawesome;
+  left: -45px;
+  position: absolute;
+}
+
+.resumes-container.blue .section.portfolio .section-title::before {
+  content: "\f0b1";
+  font-family: fontawesome;
+  left: -45px;
+  position: absolute;
+}
+
+.resumes-container.blue .section.contact_info .section-title::before {
+  content: "\f1d9";
+  font-family: fontawesome;
+  left: -45px;
+  position: absolute;
+}
+
+
+.resumes-container.blue .col-right .section-title {
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  text-align: left;
+}
+.resumes-container.blue .col-right .section-subtitle {
+  font-size: 15px;
+  font-style: italic;
+  padding: 6px 0;
+  text-align: left;
+}
+
+.resumes-container.blue .col-right .section-details {
+  font-size: 15px;
+  text-align: left;
+}
+
+
+
+.resumes-container.blue .col-right .entry {
+  margin: 26px 0;
+  padding-bottom: 30px;
+  text-align: left;
+}
+
+.resumes-container.blue .col-right .entry-title {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.resumes-container.blue .col-right .entry-name {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+}
+
+
+.resumes-container.blue .col-right .entry-subtitle {
+  font-size: 13px;
+ 
+  text-align: left;
+}
+
+.resumes-container.blue .col-right .entry-year {
+  font-size: 13px;
+ 
+  text-align: left;
+}
+
+.resumes-container.blue .col-right .entry-details {
+  font-size: 13px;
+ 
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

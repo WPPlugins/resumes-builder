@@ -1,0 +1,287 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.resumes-container.flat {
+  background: none repeat scroll 0 0 rgb(228, 228, 228);
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+.resumes-container.flat .resumes-header {
+  background: none repeat scroll 0 0 rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 0 0 3px -1px rgb(153, 153, 153);
+  margin: 15px 11px;
+  padding: 40px 20px;
+}
+
+.resumes-container.flat .resumes-thumbnail {
+  float: left;
+  height: 190px;
+  margin-right: 20px;
+  overflow: hidden;
+  width: 250px;
+}
+
+.resumes-container.flat .resumes-title {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 8px 10px;
+  text-align: left;
+}
+.resumes-container.flat .resumes-subtitle {
+  color: rgb(153, 153, 153);
+  font-size: 15px;
+  padding: 8px 10px;
+  text-align: left;
+}
+.resumes-container.flat .resumes-details {
+  font-size: 14px;
+  padding: 8px 10px;
+  text-align: left;
+}
+
+.resumes-container.flat .section-container {
+  margin: 0 auto;
+  text-align: center !important;
+  width: 100%;
+}
+
+.resumes-container.flat .section {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  vertical-align: top;
+  width: 50%;
+}
+
+.resumes-container.flat .section-inner {
+  background: none repeat scroll 0 0 rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 0 0 3px -1px rgb(153, 153, 153);
+  margin: 13px 10px;
+  padding: 10px 10px 10px 50px;
+}
+
+
+
+
+.resumes-container.flat .section.education .section-title::before {
+  content: "\f19d";
+  font-family: fontawesome;
+  left: -30px;
+  position: absolute;
+}
+
+
+.resumes-container.flat .section.experiences .section-title::before {
+  content: "\f018";
+  font-family: fontawesome;
+  left: -30px;
+  position: absolute;
+}
+.resumes-container.flat .section.award .section-title::before {
+  content: "\f02e";
+  font-family: fontawesome;
+  left: -30px;
+  position: absolute;
+}
+
+.resumes-container.flat .section.skill .section-title::before {
+  content: "\f0e7";
+  font-family: fontawesome;
+  left: -30px;
+  position: absolute;
+}
+
+.resumes-container.flat .section.interest .section-title::before {
+  content: "\f000";
+  font-family: fontawesome;
+  left: -30px;
+  position: absolute;
+}
+
+.resumes-container.flat .section.social .section-title::before {
+  content: "\f1e0";
+  font-family: fontawesome;
+  left: -30px;
+  position: absolute;
+}
+
+.resumes-container.flat .section.language .section-title::before {
+  content: "\f041";
+  font-family: fontawesome;
+  left: -30px;
+  position: absolute;
+}
+
+.resumes-container.flat .section.portfolio .section-title::before {
+  content: "\f0b1";
+  font-family: fontawesome;
+  left: -30px;
+  position: absolute;
+}
+
+.resumes-container.flat .section.contact_info .section-title::before {
+  content: "\f1d9";
+  font-family: fontawesome;
+  left: -30px;
+  position: absolute;
+}
+
+
+
+
+
+
+
+
+
+.resumes-container.flat .section-title {
+  color: rgb(55, 164, 220);
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px 0;
+  padding: 0 10px;
+  position: relative;
+}
+.resumes-container.flat .section-subtitle {
+  color: rgb(189, 189, 189);
+  font-size: 14px;
+  margin: 5px 0;
+  padding: 0 10px;
+}
+
+.resumes-container.flat .section-details {
+  font-size: 13px;
+  margin: 10px 0;
+  padding: 0 10px;
+}
+
+.resumes-container.flat .entry {
+  margin: 20px 0;
+  padding: 0 20px;
+}
+
+.resumes-container.flat .entry-title {
+  color: rgb(134, 134, 134);
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+.resumes-container.flat .entry-subtitle {
+  font-size: 13px;
+  font-style: italic;
+  color: rgb(189, 189, 189);
+}
+
+.resumes-container.flat .entry-year{
+  font-size: 13px;
+  font-style: italic;
+  color: rgb(189, 189, 189);
+}
+
+.resumes-container.flat .entry-details {
+  font-size: 13px;
+}
+
+.resumes-container.flat .entry-level{
+  font-size: 13px;
+  font-style: italic;
+  color: rgb(189, 189, 189);
+}
+
+
+
+
+
+
+
+
+.resumes-container.flat  .contact_info .entry-email{
+ position: relative;
+}
+.resumes-container.flat  .contact_info .entry-email::before{
+  content: "\f1d9";
+  font-family: fontawesome;
+  left: -25px;
+  position: absolute;
+}
+
+.resumes-container.flat  .contact_info .entry-url{
+ position: relative;
+}
+.resumes-container.flat  .contact_info .entry-url::before{
+  content: "\f0c1";
+  font-family: fontawesome;
+  left: -25px;
+  position: absolute;
+}
+.resumes-container.flat  .contact_info .entry-location{
+ position: relative;
+}
+.resumes-container.flat  .contact_info .entry-location::before{
+  content: "\f041";
+  font-family: fontawesome;
+  left: -25px;
+  position: absolute;
+}
+.resumes-container.flat  .contact_info .entry-phone{
+ position: relative;
+}
+
+.resumes-container.flat  .contact_info .entry-phone::before{
+  content: "\f095";
+  font-family: fontawesome;
+  left: -25px;
+  position: absolute;
+}
+
+
+
+
+.resumes-container.flat  .social .entry-facebook {
+  position: relative;
+}
+
+.resumes-container.flat  .social .entry-facebook::before {
+  content: "\f09a";
+  font-family: fontawesome;
+  left: -25px;
+  position: absolute;
+}
+
+
+.resumes-container.flat  .social .entry-twitter{
+  position: relative;
+}
+.resumes-container.flat  .social .entry-twitter::before {
+  content: "\f099";
+  font-family: fontawesome;
+  left: -25px;
+  position: absolute;
+}
+.resumes-container.flat  .social .entry-linkedin{
+  position: relative;
+}
+.resumes-container.flat  .social .entry-linkedin::before {
+  content: "\f0e1";
+  font-family: fontawesome;
+  left: -25px;
+  position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+

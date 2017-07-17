@@ -1,0 +1,186 @@
+/*
+Admin css
+*/
+
+
+.resumes-builder-settings{}
+
+
+
+
+
+
+
+
+.resumes-builder-settings .resumes-builder {
+  margin-bottom: 20px;
+}
+.resumes-builder-settings .resumes-builder .items {
+  background: none repeat scroll 0 0 rgb(230, 230, 230);
+  border: 1px solid rgb(153, 153, 153);
+  min-height: 50px;
+  padding: 5px;
+}
+
+.resumes-builder-settings .resumes-builder .item {
+  background: none repeat scroll 0 0 rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(153, 153, 153);
+  cursor: move;
+  display: inline-block;
+  margin: 2px;
+  padding: 5px 10px;
+}
+.resumes-builder-settings .resumes-builder .item.active{
+	background: none repeat scroll 0 0 rgb(221, 240, 255);
+}
+.resumes-builder-settings .resumes-builder .item.active .options {
+	display:block;
+}
+
+.resumes-builder-settings .resumes-builder .item.ui-draggable-dragging {
+border:1px dashed #999;
+}
+
+
+.resumes-builder-settings .resumes-builder .item .options {
+	display:none;
+}
+
+
+
+
+.resumes-builder-settings .resumes-builder .canvas {
+  background: none repeat scroll 0 0 rgb(230, 230, 230);
+  border: 1px solid rgb(153, 153, 153);
+  margin: 20px 0;
+  min-height: 100px;
+  padding: 10px 10px 50px;
+}
+
+.resumes-builder-settings .resumes-builder .canvas .saved-item {
+  background: none repeat scroll 0 0 rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(153, 153, 153);
+  display: block;
+  margin: 2px;
+  padding: 5px 10px;
+  position: relative;
+}
+
+
+.resumes-builder-settings .resumes-builder .canvas .ui-sortable-helper{
+	border:1px dashed #999;
+
+}
+
+
+.resumes-builder-settings .resumes-builder .canvas .saved-item.active {
+
+  padding: 0;
+}
+
+.resumes-builder-settings .resumes-builder .canvas .saved-item.active .header {
+  background: none repeat scroll 0 0 rgb(184, 229, 255);
+  border-bottom: 1px solid rgb(153, 153, 153);
+  padding: 7px 10px;
+}
+.resumes-builder-settings .resumes-builder .canvas .saved-item .options {
+	display:none;
+
+}
+.resumes-builder-settings .resumes-builder .canvas .saved-item.active .options {
+  background: none repeat scroll 0 0 rgb(225, 244, 255);
+  display: block;
+  padding: 7px 10px;
+}
+
+.resumes-builder-settings .resumes-builder .canvas  .section-entry {
+
+}
+
+.resumes-builder-settings .resumes-builder .canvas .section-entry .entry {
+  background: none repeat scroll 0 0 rgba(153, 153, 153, 0.2);
+  border-left: 3px solid rgb(153, 153, 153);
+  margin: 10px 0;
+  padding: 5px;
+  position: relative;
+}
+
+
+.resumes-builder-settings .resumes-builder .canvas .section-entry .entry .remove {
+  background: none repeat scroll 0 0 rgb(255, 91, 64);
+  cursor: pointer;
+  padding: 0 4px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+
+.resumes-builder-settings .resumes-builder .canvas .section-entry .entry p {
+  display: inline-block;
+  margin: 10px 3px;
+}
+
+.resumes-builder-settings textarea {
+	width:100%;
+}
+
+
+
+
+
+
+.resumes-builder-settings #resumes-builder {
+  width: 100%;
+}
+
+
+.resumes-builder-settings #resumes-builder tr {
+  background: none repeat scroll 0 0 rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(153, 153, 153);
+  padding: 0;
+}
+
+.resumes-builder-settings #resumes-builder td {
+
+}
+
+.resumes-builder-settings #resumes-builder td.dragHandle {
+  text-align: center;
+  width: 25px;
+}
+
+
+
+.resumes-builder-settings #resumes-builder .header {
+    border-bottom: 1px solid rgb(153, 153, 153);
+    padding: 5px 10px;
+}
+
+.resumes-builder-settings #resumes-builder .options {
+  display: none;
+}
+.resumes-builder-settings #resumes-builder tr.active{
+background: none repeat scroll 0 0 rgb(221, 240, 255);
+}
+
+.resumes-builder-settings #resumes-builder tr.active .header {
+background: none repeat scroll 0 0 rgb(172, 218, 253);
+}
+.resumes-builder-settings #resumes-builder tr.active .options {
+  display: block;
+  padding: 5px 10px;
+}
+
+.resumes-builder-settings .input-switch {
+  display: inline-block;
+  float: right;
+  margin-left: 10px;
+  margin-right: 20px;
+  position: absolute;
+  right: 23px;
+  top: 0;
+  vertical-align: top;
+  width: 14px;
+}

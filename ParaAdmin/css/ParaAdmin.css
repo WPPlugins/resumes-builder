@@ -1,0 +1,390 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*Admin CSS*/
+
+.para-settings {
+  margin: 20px 0;
+}
+
+.para-settings .option-box {
+  border-left: 3px solid rgb(255, 255, 255);
+  margin: 10px 0;
+  padding: 10px;
+}
+
+
+.para-settings .option-box:hover {
+  background: #e6e6e6;
+  border-left: 3px solid #11b063;
+}
+
+
+.para-settings .option-box .option-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.para-settings .option-box .option-info {
+  color: rgb(73, 147, 14);
+  font-size: 13px;
+  font-weight: normal;
+  margin: 10px 0;
+}
+
+.para-settings ul.tab-nav {
+  clear: both;
+  margin: 0;
+  padding: 0;
+}
+
+.para-settings ul.tab-nav li {
+  background: none repeat scroll 0 0 rgb(230, 230, 230);
+  border-left: 1px solid rgb(199, 199, 199);
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  margin: 0;
+  padding: 8px 15px;
+}
+
+.para-settings ul.tab-nav li.active{
+	background:#d8d6d6;
+	border-top:2px solid #11b063;
+	padding-top:6px;
+	font-weight: bold;
+	}
+.para-settings ul.box {
+  clear: both;
+  margin: 0;
+  padding: 0;
+}
+
+.para-settings ul.box li.tab-box {
+  border: 1px solid rgb(153, 153, 153);
+  display: none;
+  margin: 0;
+  width: 100%;
+}
+
+
+
+
+.para-settings .new_user_profile_social {
+  margin: 15px 5px;
+}
+
+
+
+
+
+.para-settings h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 25px 0;
+}
+
+
+
+.para-settings .green {
+  background: url("tik-mark.png") no-repeat scroll 0 3px rgba(0, 0, 0, 0);
+  display: inline-block;
+	padding-left: 25px;
+  line-height: 20px;
+
+}
+
+.para-settings .red {
+  background: url("cross-mark.png") no-repeat scroll 0 3px rgba(0, 0, 0, 0);
+  display: inline-block;
+	padding-left: 25px;
+  line-height: 20px;
+
+}
+
+
+
+
+.para-settings .data-table {
+  border: 1px solid rgb(199, 199, 199);
+  border-collapse: collapse;
+}
+
+.para-settings .data-table tr {
+  border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+
+.para-settings .data-table th {
+  border-bottom: 2px solid rgb(253, 197, 28);
+  border-collapse: collapse;
+  padding: 10px 20px 10px 8px;
+}
+
+
+.para-settings .data-table td {
+  border-bottom: 1px solid rgb(199, 199, 199);
+  border-collapse: collapse;
+  padding: 10px 20px 10px 8px;
+}
+
+.para-settings .button {
+  margin: 20px 0;
+}
+
+.para-settings .success {
+  background: none repeat scroll 0 0 rgb(105, 221, 157);
+  padding: 5px 10px;
+  display:none;
+}
+.para-settings .para-form-table {
+
+  border-collapse: collapse;
+}
+
+.para-settings .para-form-table tr {
+
+}
+
+
+.para-settings .para-form-table th {
+  border-collapse: collapse;
+  padding: 10px 20px 10px 8px;
+  text-align: left;
+  vertical-align: top;
+  width: 200px;
+}
+
+.para-settings .para-form-table td {
+
+  border-collapse: collapse;
+  padding: 10px 20px 10px 8px;
+}
+
+.para-settings pre {
+
+}
+
+
+input.switch:empty
+{
+	margin-left: -999px;
+}
+input.switch:empty ~ label
+{
+	position: relative;
+	float: left;
+	line-height: 1.6em;
+	text-indent: 4em;
+	margin: 0.2em 0;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+input.switch:empty ~ label:before, 
+input.switch:empty ~ label:after
+{
+	position: absolute;
+	display: block;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	content: ' ';
+	width: 3.6em;
+	background-color: #e4e4e4;
+	border-radius: 0.3em;
+	box-shadow: inset 0 0.2em 0 rgba(0,0,0,0.3);
+	-webkit-transition: all 100ms ease-in;
+	transition: all 100ms ease-in;
+}
+
+input.switch:empty ~ label:after
+{
+	width: 1.4em;
+	top: 0.1em;
+	bottom: 0.1em;
+	margin-left: 0.1em;
+	background-color: #fff;
+	border-radius: 0.15em;
+	box-shadow: inset 0 -0.2em 0 rgba(0,0,0,0.2);
+}
+
+
+input.switch:checked ~ label:before
+{
+	background-color: #69c8ff;
+}
+
+input.switch:checked ~ label:after
+{
+	margin-left: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*para-dashboard*/
+
+.para-dashboard {
+  background: none repeat scroll 0 0 rgb(91, 116, 145);
+  padding: 10px;
+}
+
+.para-dashboard .dash-box {
+  background: none repeat scroll 0 0 rgb(93, 126, 163);
+  border: 1px solid rgb(122, 170, 223);
+  display: inline-block;
+  height: auto;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  margin-top: 0;
+  overflow: hidden;
+  padding-bottom: 30px;
+  vertical-align: top;
+  width: 350px;
+}
+
+.para-dashboard .dash-box-title {
+  background: none repeat scroll 0 0 rgb(100, 140, 186);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 30px;
+  padding: 0 10px;
+}
+
+.para-dashboard .dash-box-title .fa {
+  padding-right: 10px;
+}
+
+.para-dashboard .dash-box-info {
+  color: rgb(238, 238, 238);
+  font-size: 12px;
+  padding: 10px;
+}
+
+.para-dashboard .dash-box .total-online {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  padding: 30px 10px 10px;
+  text-align: center;
+}
+
+.para-dashboard .dash-box .total-session {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  padding: 30px 10px 10px;
+  text-align: center;
+}
+
+
+
+
+.para-dashboard .dash-box .para-data-table {
+  border: 1px solid rgb(221, 221, 221);
+  border-collapse: collapse;
+  color: rgb(255, 255, 255);
+  text-align: left;
+}
+
+.para-dashboard .dash-box .para-data-table th {
+  padding: 7px;
+}
+.para-dashboard .dash-box tr {
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+.para-dashboard .dash-box .para-data-table td {
+  padding: 5px;
+}
+
+.para-dashboard .dash-box .para-data-table a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 799px) {
+	
+	
+	
+	
+	
+	
+	
+	
+	.para-settings ul.tab-nav li {
+	  display: block;
+	  float: none;
+	
+	}
+	
+	.para-settings ul.tab-nav li.active{
+		font-weight: bold;
+		}	
+	
+
+
+
+
+	.para-settings .pricing-table .column {
+		display:block;
+		float:none;
+		width:100%;
+		border-right: 1px solid #ff9601;
+		margin: 50px 0;
+	
+	}
+
+
+
+
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
